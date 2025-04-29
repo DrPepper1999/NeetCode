@@ -1,0 +1,14 @@
+C:\Users\molch\RiderProjects\NeetCode\NeetCode\bin\Debug\net8.0\NeetCode.exe
+C:\Users\molch\RiderProjects\NeetCode\NeetCode\bin\Debug\net8.0\NeetCode.deps.json
+C:\Users\molch\RiderProjects\NeetCode\NeetCode\bin\Debug\net8.0\NeetCode.runtimeconfig.json
+C:\Users\molch\RiderProjects\NeetCode\NeetCode\bin\Debug\net8.0\NeetCode.dll
+C:\Users\molch\RiderProjects\NeetCode\NeetCode\bin\Debug\net8.0\NeetCode.pdb
+C:\Users\molch\RiderProjects\NeetCode\NeetCode\obj\Debug\net8.0\NeetCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\molch\RiderProjects\NeetCode\NeetCode\obj\Debug\net8.0\NeetCode.AssemblyInfoInputs.cache
+C:\Users\molch\RiderProjects\NeetCode\NeetCode\obj\Debug\net8.0\NeetCode.AssemblyInfo.cs
+C:\Users\molch\RiderProjects\NeetCode\NeetCode\obj\Debug\net8.0\NeetCode.csproj.CoreCompileInputs.cache
+C:\Users\molch\RiderProjects\NeetCode\NeetCode\obj\Debug\net8.0\NeetCode.dll
+C:\Users\molch\RiderProjects\NeetCode\NeetCode\obj\Debug\net8.0\refint\NeetCode.dll
+C:\Users\molch\RiderProjects\NeetCode\NeetCode\obj\Debug\net8.0\NeetCode.pdb
+C:\Users\molch\RiderProjects\NeetCode\NeetCode\obj\Debug\net8.0\NeetCode.genruntimeconfig.cache
+C:\Users\molch\RiderProjects\NeetCode\NeetCode\obj\Debug\net8.0\ref\NeetCode.dll

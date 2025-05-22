@@ -1,29 +1,39 @@
 ﻿namespace NeetCode;
 
-public class TopKFrequentElements
+/// <summary>
+/// Дан массив целых чисел nums и целое число k, вернуть k наиболее часто встречающиеся элементы в массиве.
+///
+/// Вы можете вернуть выходные данные в любом порядке.
+///
+/// Input: nums = [1,2,2,3,3,3], k = 2
+/// Output: [2,3]
+///
+/// Input: nums = [7,7], k = 1
+/// Output: [7]
+/// </summary>
+public class TopKFrequentElements // TODO описать решение
 {
-    public int[] TopKFrequent1(int[] nums, int k) {
-        Dictionary<int, int> count = new Dictionary<int, int>();
-        List<int>[] freq = new List<int>[nums.Length + 1];
+    // Time complexity: O(n), Space complexity: O(n)
+    public int[] TopKFrequentBucketSort(int[] nums, int k) {
+        var count = new Dictionary<int, int>();
+        var freq = new List<int>[nums.Length + 1];
         for (int i = 0; i < freq.Length; i++) {
             freq[i] = new List<int>();
         }
 
-        foreach (int n in nums) {
-            if (count.ContainsKey(n)) {
+        foreach (var n in nums) {
+            if (!count.TryAdd(n, 1)) {
                 count[n]++;
-            } else {
-                count[n] = 1;
             }
         }
         foreach (var entry in count){
             freq[entry.Value].Add(entry.Key);
         }
 
-        int[] res = new int[k];
-        int index = 0;
-        for (int i = freq.Length - 1; i > 0 && index < k; i--) {
-            foreach (int n in freq[i]) {
+        var res = new int[k];
+        var index = 0;
+        for (var i = freq.Length - 1; i > 0 && index < k; i--) {
+            foreach (var n in freq[i]) {
                 res[index++] = n;
                 if (index == k) {
                     return res;
@@ -33,7 +43,9 @@ public class TopKFrequentElements
         return res;
     }
     
-    public int[] TopKFrequent2(int[] nums, int k) {
+    // Через PriorityQueue  Time complexity: O(nlogk),  Space complexity: O(n+k)
+    // Простое решение
+    public int[] TopKFrequentMinHeap(int[] nums, int k) {
         var count = new Dictionary<int, int>();
         foreach (var num in nums) {
             if (!count.TryAdd(num, 1)) {

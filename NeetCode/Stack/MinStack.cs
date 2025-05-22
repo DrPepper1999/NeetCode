@@ -4,13 +4,9 @@ namespace NeetCode;
 
 public class MinStack
 {
-    private readonly Stack<int> _stack = new Stack<int>();
-    private readonly Stack<int> _mins = new Stack<int>();
-    
-    public MinStack()
-    {
-    }
-    
+    private readonly Stack<int> _stack = new();
+    private readonly Stack<int> _mins = new();
+
     public void Push(int val)
     {
         if (_mins.Count == 0)

@@ -4,8 +4,8 @@ public class ValidAnagram
 {
     public bool IsAnagram(string s, string t)
     {
-        var sFrequencyCharacter = GetFrequencyCharacter(s);
-        var tFrequencyCharacter = GetFrequencyCharacter(t);
+        var sFrequencyCharacter = GetFrequencyMap(s);
+        var tFrequencyCharacter = GetFrequencyMap(t);
 
         if (sFrequencyCharacter.Count != tFrequencyCharacter.Count)
         {
@@ -23,7 +23,7 @@ public class ValidAnagram
         });
     }
 
-    private Dictionary<char, int> GetFrequencyCharacter(string str)
+    private Dictionary<char, int> GetFrequencyMap(string str)
     {
         var result = new Dictionary<char, int>();
 

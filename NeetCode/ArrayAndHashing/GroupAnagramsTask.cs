@@ -1,10 +1,16 @@
 ﻿using System.Collections;
 
 namespace NeetCode;
-
+/// <summary>
+/// Дан массив строк strs, сгруппируйте все анаграммы в подсписки. Вы можете вернуть вывод в любом порядке.
+///
+/// Анаграмма — это строка, которая содержит те же символы , что и другая строка, но порядок символов может быть другим.
+///
+/// Input: strs = ["act","pots","tops","cat","stop","hat"]
+/// Output: [["hat"],["act", "cat"],["stop", "pots", "tops"]]
+/// </summary>
 public class GroupAnagramsTask
 {
-    
     public List<List<string>> GroupAnagrams1(string[] strs) {
         var res = new Dictionary<string, List<string>>();
         foreach (var s in strs) {
@@ -14,13 +20,13 @@ public class GroupAnagramsTask
             }
             var key = string.Join(",", count);
             if (!res.TryGetValue(key, out var value)) {
-                value = ([]);
+                value = [];
                 res[key] = value;
             }
 
             value.Add(s);
         }
-        return res.Values.ToList<List<string>>();       
+        return res.Values.ToList();       
     }
     
     public List<List<string>> GroupAnagrams(string[] strs)

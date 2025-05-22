@@ -12,3 +12,4 @@ C:\Users\molch\RiderProjects\NeetCode\NeetCode\obj\Debug\net8.0\refint\NeetCode.
 C:\Users\molch\RiderProjects\NeetCode\NeetCode\obj\Debug\net8.0\NeetCode.pdb
 C:\Users\molch\RiderProjects\NeetCode\NeetCode\obj\Debug\net8.0\NeetCode.genruntimeconfig.cache
 C:\Users\molch\RiderProjects\NeetCode\NeetCode\obj\Debug\net8.0\ref\NeetCode.dll
+C:\Users\molch\RiderProjects\NeetCode\NeetCode\obj\Debug\net8.0\NeetCode.sourcelink.json

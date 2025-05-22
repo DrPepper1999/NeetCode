@@ -2,6 +2,9 @@
 
 namespace NeetCode;
 
+/// <summary>
+/// Найти длину самой длинной уникальной последовательности
+/// </summary>
 public class LengthLongStr
 {
     public static int GetMaxLength(string str)

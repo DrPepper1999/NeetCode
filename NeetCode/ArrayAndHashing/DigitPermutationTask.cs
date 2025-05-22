@@ -1,5 +1,8 @@
 ﻿namespace NeetCode;
 
+/// <summary>
+/// как GroupAnagramsTask только с числами
+/// </summary>
 public class DigitPermutationTask
 {
     public static IEnumerable<IEnumerable<int>> DigitPermutation(IEnumerable<int> arr)

@@ -1,5 +1,8 @@
 ﻿namespace NeetCode;
 
+/// <summary>
+/// Вренуть все узлы с переденным типом
+/// </summary>
 public class GetNodesTask
 {
     public static List<Node> GetNodes(Node tree, string type)

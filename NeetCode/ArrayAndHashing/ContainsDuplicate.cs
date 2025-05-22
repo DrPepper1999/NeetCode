@@ -1,5 +1,8 @@
 ﻿namespace NeetCode;
 
+/// <summary>
+/// Вывести true сли массив содержит дубликаты, иначе false
+/// </summary>
 public class ContainsDuplicate
 {
     public bool hasDuplicate(int[] nums)

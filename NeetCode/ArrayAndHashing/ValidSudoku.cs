@@ -1,14 +1,14 @@
 ﻿namespace NeetCode;
 
 /// <summary>
-/// You are given a a 9 x 9 Sudoku board board. A Sudoku board is valid if the following rules are
-/// followed:
-/// 1. Each row must contain the digits 1-9 without duplicates.
-/// 2. Each column must contain the digits 1-9 without duplicates.
-/// 3. Each of the nine 3 x 3 sub-boxes of the grid must contain the digits 1-9 without duplicates.
-///
-/// Return true if the Sudoku board is valid, otherwise return false
-/// Note: A board does not need to be full or be solvable to be valid.
+/// Вам дают совет по правлению судоку 9 x 9. Совет по судоку действителен, если следующие правила
+/// Следовал:
+/// 1. Каждая строка должна содержать цифры 1-9 без дубликатов.
+/// 2. Каждый столбец должен содержать цифры 1-9 без дубликатов.
+/// 3. Каждый из девяти 3 x 3 подборов сетки должен содержать цифры 1-9 без дубликатов.
+////
+/// Вернуть True, если доска Sudoku действителен, в противном случае вернуть ложные
+/// Примечание: доска не должна быть заполнена или быть разрешаемой, чтобы быть действительным.
 /// </summary>
 public class ValidSudoku
 {

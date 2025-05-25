@@ -2,6 +2,8 @@
 
 /// <summary>
 /// https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/674/
+/// Даны два целочисленных массива nums1и nums2, вернуть массив их пересечения . Каждый элемент в результате должен появиться
+/// столько раз, сколько он показан в обоих массивах, и вы можете вернуть результат в любом порядке .
 /// </summary>
 public class IntersectionOfTwoArraysII
 {

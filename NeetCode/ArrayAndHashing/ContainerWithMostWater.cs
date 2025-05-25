@@ -1,5 +1,10 @@
 ﻿namespace NeetCode;
 
+/// <summary>
+/// Вам дан целочисленный массив heights, где heights[i] представляет высоту
+/// Вы можете выбрать любые два бруска, чтобы сформировать контейнер. Возвращает
+/// максимальное количество воды, которое может хранить контейнер.
+/// </summary>
 public class ContainerWithMostWater
 {
     public static int MaxArea(int[] heights)

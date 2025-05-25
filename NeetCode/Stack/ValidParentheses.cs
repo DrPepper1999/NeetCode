@@ -1,13 +1,13 @@
 ﻿namespace NeetCode;
 
 /// <summary>
-/// You are given a string s consisting of the following characters: '(', ')', '{', '}', '[' and ']'.
-/// The input string s is valid if and only if:
-/// 1. Every open bracket is closed by the same type of close bracket.
-/// 2. Open brackets are closed in the correct order.
-/// 3. Every close bracket has a corresponding open bracket of the same type.
-///
-/// Return true if s is a valid string, and false otherwise.
+/// Вам дают строку, состоящую из следующих символов: '(', ')', '{', '}', '' 'и'] '.
+/// Входная строка s действительна тогда и только тогда, когда:
+/// 1. Каждый открытый кронштейн закрыт одним и тем же типом близкого кронштейна.
+/// 2. Открытые кронштейны закрыты в правильном порядке.
+/// 3. Каждый закрытый кронштейн имеет соответствующий открытый кронштейн того же типа.
+////
+/// Вернуть True, если S является действительной строкой, и false в противном случае.
 /// </summary>
 public class ValidParentheses
 {

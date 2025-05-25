@@ -2,6 +2,9 @@
 
 namespace NeetCode;
 
+/// <summary>
+/// Реалезовать стек с возможностью получить минимального чилса в стеке
+/// </summary>
 public class MinStack
 {
     private readonly Stack<int> _stack = new();

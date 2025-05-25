@@ -1,11 +1,11 @@
 ﻿namespace NeetCode.SlidingWindow;
 
 /// <summary>
-/// You are given an integer array prices where prices[i] is the price of NeetCoin on the ith day.
-/// You may choose a single day to buy one NeetCoin and choose a different day in the future to sell it.
-///
-/// Return the maximum profit you can achieve. You may choose to not make any transactions, in
-/// which case the profit would be 0.
+/// Вам дают целочисленные цены, где цены [i] - это цена Neetcoin в день.
+/// Вы можете выбрать один день, чтобы купить один Neetcoin и выбрать другой день в будущем, чтобы продать его.
+////
+/// Возврат максимальной прибыли, которую вы можете получить. Вы можете не совершать никаких транзакций, в
+/// какой случай прибыль будет 0.
 /// </summary>
 public class BestTimeToBuyAndSellStock
 {

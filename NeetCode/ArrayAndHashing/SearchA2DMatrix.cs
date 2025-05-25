@@ -1,5 +1,6 @@
 ﻿namespace NeetCode;
 
+// Включает ли матрица переданный элемент
 public class SearchA2DMatrix
 {
     public static bool Include(int[][] matrix, int target)

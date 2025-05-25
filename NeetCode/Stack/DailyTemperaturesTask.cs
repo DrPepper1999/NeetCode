@@ -1,10 +1,10 @@
 ﻿namespace NeetCode;
 
 /// <summary>
-/// You are given an array of integers temperatures where temperatures[i] represents the daily temperatures on the ith day.
-///
-/// Return an array result where result[i] is the number of days after the ith day before a warmer temperature appears on a future day. If there is no day in the future where a warmer temperature will appear for
-/// the ith day, set result[i] to 0 instead.
+/// Вам дают массив целых чисел температуры, при которых температура [i] представляет ежедневные температуры в день.
+////
+/// Вернуть результат массива, когда результат [i] - это количество дней после того, как в день более теплой температуры появится в будущий день. Если в будущем нет дня, когда появится более теплая температура
+/// Вместо этого дня установите результат [i] на 0.
 ///
 /// Input: temperatures = [30,38,30,36,35,40,28]
 /// Output: [1,4,1,2,1,0,0]

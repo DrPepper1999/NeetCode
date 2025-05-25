@@ -13,6 +13,31 @@
 /// </summary>
 public class TopKFrequentElements // TODO описать решение
 {
+    // Через PriorityQueue  Time complexity: O(nlogk),  Space complexity: O(n+k)
+    // Простое решение
+    public int[] TopKFrequentMinHeap(int[] nums, int k) {
+        var count = new Dictionary<int, int>();
+        foreach (var num in nums) {
+            if (!count.TryAdd(num, 1)) {
+                count[num]++;
+            }
+        }
+
+        var heap = new PriorityQueue<int, int>();
+        foreach (var entry in count) {
+            heap.Enqueue(entry.Key, entry.Value);
+            if (heap.Count > k) {
+                heap.Dequeue();
+            }
+        }
+        
+        var res = new int[k];
+        for (int i = 0; i < k; i++) {
+            res[i] = heap.Dequeue();
+        }
+        return res;
+    }
+    
     // Time complexity: O(n), Space complexity: O(n)
     public int[] TopKFrequentBucketSort(int[] nums, int k) {
         var count = new Dictionary<int, int>();
@@ -43,30 +68,7 @@ public class TopKFrequentElements // TODO описать решение
         return res;
     }
     
-    // Через PriorityQueue  Time complexity: O(nlogk),  Space complexity: O(n+k)
-    // Простое решение
-    public int[] TopKFrequentMinHeap(int[] nums, int k) {
-        var count = new Dictionary<int, int>();
-        foreach (var num in nums) {
-            if (!count.TryAdd(num, 1)) {
-                count[num]++;
-            }
-        }
-
-        var heap = new PriorityQueue<int, int>();
-        foreach (var entry in count) {
-            heap.Enqueue(entry.Key, entry.Value);
-            if (heap.Count > k) {
-                heap.Dequeue();
-            }
-        }
-        
-        var res = new int[k];
-        for (int i = 0; i < k; i++) {
-            res[i] = heap.Dequeue();
-        }
-        return res;
-    }
+    
     
     public int[] TopKFrequent(int[] nums, int k)
     {

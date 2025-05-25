@@ -1,17 +1,17 @@
 ﻿namespace NeetCode;
 
 /*
-    There are n cars traveling to the same destination on a one-lane highway.
-    You are given two arrays of integers position and speed, both of length n.
+Есть n автомобилей, едущие к одному месту назначения на шоссе с одной полосой.
+    Вам дают два массива положения и скорости целых чисел, обе длина n.
 
-    position[i] is the position of the ith car (in miles)
-    speed[i] is the speed of the ith car (in miles per hour)
+    Положение [i] является позицией автомобиля (в милях)
+    Скорость [i] - это скорость автомобиля (в милях в час)
 
-    The destination is at position target miles.
-    A car can not pass another car ahead of it. It can only catch up to another car and then drive at the same speed as the car ahead of it.
-    A car fleet is a non-empty set of cars driving at the same position and same speed. A single car is also considered a car fleet.
-    If a car catches up to a car fleet the moment the fleet reaches the destination, then the car is considered to be part of the fleet.
-    Return the number of different car fleets that will arrive at the destination.
+    Пункт назначения находится в позиции целевых миль.
+    Автомобиль не может пройти еще одну машину впереди. Он может догнать только другую машину, а затем ездить на той же скорости, что и автомобиль впереди.
+    Автомобильный флот-это непустые автомобили, едущие в том же положении и той же скорости. Один автомобиль также считается автомобильным парком.
+    Если машина догоняет автомобильный флот в тот момент, когда флот достигает места назначения, то автомобиль считается частью флота.
+    Верните количество различных автомобильных флотов, которые поступят в пункт назначения.
 
     Input: target = 10, position = [1,4], speed = [3,2]
     Output: 1

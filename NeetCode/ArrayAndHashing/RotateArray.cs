@@ -2,6 +2,7 @@
 
 /// <summary>
 /// https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/646/
+/// Дан целочисленный массив nums. Поверните массив вправо на kшаги, где k— неотрицательное число.
 /// </summary>
 public class RotateArray
 {

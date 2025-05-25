@@ -1,9 +1,9 @@
 ﻿namespace NeetCode;
 
 /// <summary>
-/// Given an array of integers nums and an integer target, return the indices i and j such that nums[i] + nums[j] == target and i != j.
-/// You may assume that every input has exactly one pair of indices i and j that satisfy the condition.
-/// Return the answer with the smaller index first.
+/// Учитывая массив целых чисел и целочисленную цель, верните индексы i и j, такие что Nums [i] + nums [j] == Target и i != j.
+/// Вы можете предположить, что у каждого ввода есть ровно одна пара индексов i и j, которые удовлетворяют условию.
+/// Сначала вернуть ответ с меньшим индексом.
 ///
 /// Input:
 /// nums = [3,4,5,6], target = 7

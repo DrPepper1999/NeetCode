@@ -1,5 +1,8 @@
 ﻿namespace NeetCode;
 
+/// <summary>
+/// Найти такие 2 числа что бы при numbers[i] + numbers[j] == target
+/// </summary>
 public class TwoIntegerSum2
 {
     public int[] TwoSum(int[] numbers, int target)

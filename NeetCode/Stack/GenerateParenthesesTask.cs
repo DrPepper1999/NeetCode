@@ -1,8 +1,8 @@
 ﻿namespace NeetCode;
 
 /// <summary>
-/// You are given an integer n. Return all well-formed parentheses strings that you can generate with n
-/// pairs of parentheses.
+/// Вам дается целое число n. Верните все хорошо сформированные струны скобок, которые вы можете генерировать с помощью n
+/// Пары скобок.
 ///
 /// Input: n = 1
 /// Output: ["()"]

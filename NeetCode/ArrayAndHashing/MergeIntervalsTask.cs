@@ -1,5 +1,8 @@
 ﻿namespace NeetCode;
 
+/// <summary>
+/// Соеденить интервалы
+/// </summary>
 public class MergeIntervalsTask
 {
     public int[][] MergeIntervals(int[][] intervals)

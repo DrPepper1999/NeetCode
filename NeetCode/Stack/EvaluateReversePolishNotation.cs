@@ -1,5 +1,8 @@
 ﻿namespace NeetCode;
 
+/// <summary>
+/// Оценить обратную польсную запись
+/// </summary>
 public class EvaluateReversePolishNotation
 {
     private readonly Dictionary<char, Func<int, int, int>> _operations = new()

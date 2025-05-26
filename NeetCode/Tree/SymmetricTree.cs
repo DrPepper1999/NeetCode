@@ -2,6 +2,7 @@
 
 /// <summary>
 /// https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/627/
+/// Имея rootдвоичное дерево, проверьте, является ли оно зеркальным отражением самого себя (т.е. симметрично относительно своего центра).
 /// </summary>
 public class SymmetricTree
 {

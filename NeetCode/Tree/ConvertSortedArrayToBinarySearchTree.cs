@@ -2,6 +2,8 @@
 
 /// <summary>
 /// https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/631/
+/// Дан целочисленный массив nums, элементы которого отсортированы в порядке возрастания , и преобразован его в
+/// сбалансированное по высоте двоичное дерево поиска .
 /// </summary>
 public class ConvertSortedArrayToBinarySearchTree
 {

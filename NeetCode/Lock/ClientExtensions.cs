@@ -2,8 +2,9 @@
 
 using System.Collections.Concurrent;
 
-public class Response
+public class Response(long id)
 {
+    public long Id { get; set; } = id;
 }
 
 public class Client : IClient
@@ -12,7 +13,7 @@ public class Client : IClient
     {
         await Task.Delay(1000);
 
-        return new Response();
+        return new Response(id);
     }
 }
 
@@ -70,9 +71,7 @@ public static class ClientExtensions
 
         try
         {
-            Console.WriteLine($"Задача {id} начата в потоке {Environment.CurrentManagedThreadId}");
             var response = await client.GetAsync(id);
-            Console.WriteLine($"Задача {id} завершена");
 
             return response;
         }

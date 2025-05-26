@@ -2,6 +2,7 @@
 
 /// <summary>
 /// https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/628/
+/// Для заданного root двоичного дерева вернуть порядок обхода значений его узлов (т.е. слева направо, уровень за уровнем).
 /// </summary>
 public class BinaryTreeLevelOrderTraversal
 {

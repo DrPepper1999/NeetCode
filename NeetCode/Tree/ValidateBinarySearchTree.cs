@@ -2,6 +2,7 @@
 
 /// <summary>
 /// https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/625/
+/// Учитывая rootдвоичное дерево, определите, является ли оно допустимым двоичным деревом поиска (BST) 
 /// </summary>
 public class ValidateBinarySearchTree
 {

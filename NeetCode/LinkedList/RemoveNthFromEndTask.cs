@@ -1,5 +1,8 @@
 ﻿namespace NeetCode;
 
+/// <summary>
+///  Удалить n узел с конца
+/// </summary>
 public class RemoveNthFromEndTask
 {
     public ListNode RemoveNthFromEnd(ListNode head, int n)
@@ -13,20 +16,20 @@ public class RemoveNthFromEndTask
 
         var count = 0;
         // prevNode
-        ListNode node = null;
+        ListNode prevNode = null;
         while (head == null)
         {
             if (count != removeIndex)
             {
                 var t = new ListNode(head.Value);
-                t.Next = node;
-                node = t;
+                t.Next = prevNode;
+                prevNode = t;
             }
 
             head = head.Next;
             count++;
         }
 
-        return node;
+        return prevNode;
     }
 }
